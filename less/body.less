@@ -1,0 +1,47 @@
+main {
+  margin-block-start: 15vh;
+  & .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+    section {
+      padding-inline: 30px;
+      & .blog-container {
+        &:first-of-type {
+          margin-top: 50px;
+        }
+        margin-block: 20px;
+        padding: 15px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        & figure.image {
+          margin-inline: auto;
+          & img {
+            width: 85%;
+            display: block;
+            aspect-ratio: 16 / 9;
+            margin-inline: auto;
+          }
+        }
+      }
+    }
+    aside {
+      justify-content: end;
+      padding-inline: 4%;
+      height: 60vh;
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        li {
+          a {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--main-color);
+          }
+        }
+      }
+    }
+  }
+}
