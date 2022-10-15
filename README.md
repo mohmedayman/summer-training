@@ -10,7 +10,16 @@ The Website allows normal user to:
     - check current blogs to follow new youth care announcments
 
 ## contributers
-- @nagy-nabil
+- Nagy Nabil
+- Mohammed Tarek
+- Omar Ezzat
+- Mohamed Samy
+- Omar Khaled
+- Rana Ahmed
+- Raneem Wael
+- Mohamed Ayman
+- Omar Mostafa
+- Omar Shaban
 ## What we did
 - First we approached the youth care department to hear them and analyze their problem.
 - Having Realized that the core problem was in communcation between the department and their audience.
