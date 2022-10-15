@@ -29,7 +29,7 @@ The Website allows normal user to:
 
     - Database
 
-        Using mysql 
+        Using mysql
     - Backend framework
 
-        Using php/laravel to manage our server and connect to the database to do all CRUD operations on the blogs contents through the admin panel and as we said before we're using server rendering methodology to serve our dynamic webites to the user and the engine used as template is blade
+        Using php/laravel to manage our server and connect to the database to do all CRUD operations on the blogs contents through the admin panel and as we said before we're using server rendering methodology to serve our dynamic webites to the user and the eng22.04.1, and the deisgn pattern used for designing the backend was **MVC**
