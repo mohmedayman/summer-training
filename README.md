@@ -9,6 +9,8 @@ The Website allows normal user to:
 
     - check current blogs to follow new youth care announcments
 
+## contributers
+- @nagy-nabil
 ## What we did
 - First we approached the youth care department to hear them and analyze their problem.
 - Having Realized that the core problem was in communcation between the department and their audience.
@@ -28,7 +30,7 @@ The Website allows normal user to:
     in the backend will be discussed more further
 - Backend
 
-    - Databasehttps://www.figma.com/file/y4AtAp9wnCOHRtZDUUL9P5/Youth-care-Webpage?node-id=0%3A1
+    - Database
 
         Using mysql
     - Backend framework
