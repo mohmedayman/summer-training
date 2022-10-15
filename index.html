@@ -14,6 +14,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -24,17 +25,44 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <ul id="nav">
-            <li id="nav1"><a href="#">التكافل الأجتماعي</a></li>
-            <li id="nav2"><a href="#">خدمات طلابية</a></li>
-            <li id="nav3"><a href="#">اتحاد الطلاب</a></li>
-            <li id="nav4"><a href="/" class="active">الرئيسية</a></li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand logo" href="#">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">الرئسيه<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">اتحاد الطلاب</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">خدمات طلابيه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">التكافل الاجتماعي</a>
+              </li>
+                <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">اللجان</a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">اللجنه الثقافيه</a>
+                      <a href="#" class="dropdown-item"> اللجنه الفنيه</a>
+                      <a href="#" class="dropdown-item">اللجنه العلميه</a>
+                      <a href="#" class="dropdown-item">اللجنه الرياضيه</a>
+                      <a href="#" class="dropdown-item">اللجنه الاجتماعيه</a>
+                      <a href="#" class="dropdown-item">لجنه الاسر</a>
+                      <a href="#" class="dropdown-item">لجنه الجواله</a>
+                  </div>
+              </div>
+              
+            </ul>
+          </div>
         </nav>
-        <a href="/" class="logo">
-          <img src="images/logo.png" alt="logo" />
-        </a>
       </div>
     </header>
 
@@ -63,16 +91,9 @@
             <div class="updated-at">Thursday, October 13, 2022</div>
           </div>
         </section>
-        <aside class="d-none d-lg-flex col-lg-3 bg-white">
-          <ul>
-            <li><a href="/">اللجنة الثقافية </a></li>
-            <li><a href="#">اللجنة الفنية</a></li>
-            <li><a href="#">اللجنة العلمية</a></li>
-            <li><a href="#"> اللجنة الرياضية</a></li>
-            <li><a href="#"> لجنة الأسر</a></li>
-            <li><a href="#"> لجنة الجوالة</a></li>
-            <li><a href="#"> اللجنة الأجتماعية</a></li>
-          </ul>
+        <aside class="d-none d-lg-flex flex-column  justify-content-around bg-white">
+          <h3>كلمه عميد الكليه</h3>
+          <p class="p-2 bd-highlight">أعزائي طلاب وطالبات كلية الهندسة بشبرا جامعة بنها مع انطلاقة جديدة لعام دراسي يملؤه الأمل والتفاؤل والنشاط أتقدم إليكم بخالص التحية وأطيب التمنيات وأدعو الله أن ينتهي هذا العام بحصولكم على أعلى الدرجات. الطلاب الأعزاء.. الجامعة قبل أن تكون مكاناً لتحصيل العلم هي مكان لتربية العقول وتهذيب الأخلاق والطبائع<span><a href="https://feng.bu.edu.eg/index.php/component/content/article/2-uncategorised/189-dean-word" target="_blank">....المزيد</a></span></p>
         </aside>
       </div>
     </main>
