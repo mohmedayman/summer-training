@@ -20,14 +20,15 @@ The Website allows normal user to:
 
      Using figma to brainstorm and create a design inspired by our collage existing [official website](https://feng.bu.edu.eg/index.php/students/youth-care)
 
-    ![figema design](./images/mainTemplate.png)
+    [***Figma link***](https://www.figma.com/file/y4AtAp9wnCOHRtZDUUL9P5/Youth-care-Webpage?node-id=0%3A1)
+    ![Figema design](./images/mainTemplate.png)
 - Frontend
 
     - Using HTML5/Css/bootstrap to create our prototype template to then be converted to blade      templates because we're using server side rendring in the backend
     in the backend will be discussed more further
 - Backend
 
-    - Database
+    - Databasehttps://www.figma.com/file/y4AtAp9wnCOHRtZDUUL9P5/Youth-care-Webpage?node-id=0%3A1
 
         Using mysql
     - Backend framework
