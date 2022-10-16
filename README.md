@@ -1,4 +1,5 @@
-# Youth care
+# [Youth care](https://youthcare.meemdtt.com/)
+Check our live demo [link](https://youthcare.meemdtt.com/)
 We're building a website to connect our youth care department with their audience -The students- to make it easier to make announcments about social activities, student union elections, Social solidarity, and Student services.
 The website allows the admin to:
 
@@ -18,8 +19,7 @@ The Website allows normal user to:
 - Rana Ahmed
 - Raneem Wael
 - Mohamed Ayman
-- Omar Mostafa
-- Omar Shaban
+
 ## What we did
 - First we approached the youth care department to hear them and analyze their problem.
 - Having Realized that the core problem was in communcation between the department and their audience.
